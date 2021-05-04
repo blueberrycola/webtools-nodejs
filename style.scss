@@ -1,0 +1,22 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$theme-bg: rgb(75, 75, 75);
+$font-family-sans-serif:
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+
+body{
+    background-color: $theme-bg;
+    font: $font-family-sans-serif;
+}
